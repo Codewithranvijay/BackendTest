@@ -1,0 +1,35 @@
+server ka matalb big computer nhi hota hai iska matlab hota hai "Software" jo serve karta hai
+file:
+index.js : application ki entry file {DB Connect}
+App : configeration file ,cookies,urlencodes  constants - enames, Db-name
+
+
+directory structure:
+DB:actual code jo databse se connect karta hai
+Models: data rakhne ka liye schema banana padta hai usi ko hum model bolte hai data ko hum is tarah se store karenge
+Controllers:method or function ka fancy naam hai isme yahi sab function and method hota hai
+Routers: /login /signup ye sab
+MiddleWares
+utils : utility like mail karna hai aap isko 50 jagh use karoge to waisa kaam ko utils me rakhta hai
+More (dependecies)
+
+
+
+/: home Routers
+
+# empty node ki application kaisa banti hai
+=> open terminal > npm init      =  (ye ek utility hai jo ek process batagta hai packege.json use kan ka)
+
+
+jab bhi hum code me modification karte hai to hame fir se server chalu karna padta hai iska piche ka reason hai hot reloading . What is hot reloading?
+(The hot reloading feature allows you to inject newly edited files at runtime without stopping the app)
+
+
+
+application deploy karna ka liye bohot si chize ka dhyan rakhna padta hai specially kuch variable ka!
+npm i dotenv  --Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code
+proccess.env.port => ye use karna padta hai
+
+
+// git ssh setup karna hai apne pc pe
+Using the SSH protocol, you can connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without supplying your username and personal access token at each visit. You can also use an SSH key to sign commits.
